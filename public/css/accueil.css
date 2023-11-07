@@ -1,5 +1,5 @@
 .image-container {
-    background: url("../images/ma_photo.jpg");
+    background: url("../images/ma_photo.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
     height: 300px;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     border: 4px solid black;
-    animation: image_animate 5s ease-in-out infinite 1s;
+    animation: image_animate 5s ease-in-out infinite 3s;
   }
 
   @keyframes image_animate {
