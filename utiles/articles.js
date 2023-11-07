@@ -24,7 +24,7 @@ var articles = [
       language: "Javascript", 
       year: "2022", 
       image: "/images/test_covid.jpg", 
-      url: "https://test-covid19.netlify.app/",
+      url: "https://arf-hamza.github.io/Test-covid/",
       video: "/images/test_covid_video.mp4", 
       description:"- Un test covid creer avec javascript qui demande en premier sur combien de jour on veut faire l'analyse et ensuite il prent la consommation de chaque jour pour qu'il puissent donner au final le resultat du test pour chaque individue selon son cas et sa situation particuliaire ." },
     {
@@ -53,7 +53,7 @@ var articles = [
       language: "FIGMA", 
       year: "2023", 
       image: "/images/figma_baseball.jpg", 
-      url: "https://www.figma.com/file/4o3Xz8e4zRg4m4yvYQj7JH/Baseball?node-id=0%3A1",
+      url: "https://www.figma.com/file/uxMl4ZRihZZqAnh3x8U2LR/Baseball?type=design&node-id=0%3A1&mode=design&t=CyQrrLZbznqwE53Y-1",
       video:"/images/figma_baseball_video.mp4",
       description:"- Maquette graphique créer avec Figma pour un site de vente des equipements de baseball. Cela comprend la disposition des catégories de produits" +
       ", des images de produits, des descriptions, des options de personnalisation, des informations de paiement et de livraison, et plus encore."
