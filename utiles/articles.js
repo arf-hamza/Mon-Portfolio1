@@ -12,7 +12,7 @@ var articles = [
       language: "HTML, CSS", 
       year: "2022", 
       image: "/images/imdb.jpg", 
-      url: "https://imdb-streaming.netlify.app/",
+      url: "https://arf-hamza.github.io/Streaming_imdb/index.html",
       video:"/images/imdb_video.mp4",
       description: "- Site IMDB créé avec HTML et CSS, avec cinq pages et une page de détails et valeur,Le site web Netflix permet aux utilisateurs de regarder des films en ligne via leur ordinateur, leur téléphone portable, leur tablette ou leur télévision connectée." 
       +"Les utilisateurs peuvent choisir parmi une sélection de titres dans différentes catégories telles que les films d'action, les comédies, les drames, les documentaires,"
