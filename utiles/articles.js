@@ -53,7 +53,7 @@ var articles = [
       language: "FIGMA", 
       year: "2023", 
       image: "/images/figma_baseball.jpg", 
-      url: "https://www.figma.com/file/ziuPPtNekhJSaIzvlJTL5m/FireBat?type=design&mode=design&t=iHlxcukKw0ujn5Zf-1",
+      url: "https://www.figma.com/file/ziuPPtNekhJSaIzvlJTL5m/FireBat?type=design&node-id=0%3A1&mode=design&t=iOCyjyiibpCjigut-1",
       video:"/images/figma_baseball_video.mp4",
       description:"- Maquette graphique créer avec Figma pour un site de vente des equipements de baseball. Cela comprend la disposition des catégories de produits" +
       ", des images de produits, des descriptions, des options de personnalisation, des informations de paiement et de livraison, et plus encore."
