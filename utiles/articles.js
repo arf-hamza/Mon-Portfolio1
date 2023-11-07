@@ -44,7 +44,7 @@ var articles = [
       language: "HTML, CSS", 
       year: "2022", 
       image: "/images/voyage_au_japon.jpg", 
-      url: "https://voyage-au-japon.netlify.app/",
+      url: "https://arf-hamza.github.io/Voyage-Japon/",
       video:"/images/voyage_au_japon_video.mp4",
       description:"- Site d'une agence de voyage qui organise des voyages organisé au japon, créer en HTML et CSS avec trois pages dont une page d'accueil, une page de détails pour chaque ville a visiter pendant le voyage et une page de contact avec l'agence de voyage."},
     {
@@ -53,7 +53,7 @@ var articles = [
       language: "FIGMA", 
       year: "2023", 
       image: "/images/figma_baseball.jpg", 
-      url: "https://www.figma.com/file/uxMl4ZRihZZqAnh3x8U2LR/Baseball?type=design&node-id=0%3A1&mode=design&t=CyQrrLZbznqwE53Y-1",
+      url: "https://www.figma.com/file/uxMl4ZRihZZqAnh3x8U2LR/Baseball?type=design&mode=design&t=BuXXGH8QikhQ8LQ1-1",
       video:"/images/figma_baseball_video.mp4",
       description:"- Maquette graphique créer avec Figma pour un site de vente des equipements de baseball. Cela comprend la disposition des catégories de produits" +
       ", des images de produits, des descriptions, des options de personnalisation, des informations de paiement et de livraison, et plus encore."
