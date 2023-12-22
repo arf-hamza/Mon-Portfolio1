@@ -18,8 +18,19 @@ var articles = [
       +"Les utilisateurs peuvent choisir parmi une sélection de titres dans différentes catégories telles que les films d'action, les comédies, les drames, les documentaires,"
     + "et bien plus encore",
   },
+  {
+    id: 2, 
+    name: 'Un Jeu de Memoire', 
+    language: "Javascript, HTML, CSS", 
+    year: "2022", 
+    image: "/images/jeu_de_memoire.jpg", 
+    url: "https://arf-hamza.github.io/TP_3_Memory_Game/",
+    video: "/images/jeu_memoire_video.mp4",
+    description:"- Un jeu de mémoire qui teste la capacité d'un joueur à se souvenir et à retrouver des paires de cartes. Le jeu peut être joué sur un ordinateur, une tablette ou un smartphone via un navigateur web, avec un compteur de cinq minutes."+
+    "Le jeu commence par afficher un certain nombre de cartes, chacune avec un chiffre dessus. Les cartes sont mélangées et retournées face cachée. Le joueur doit ensuite retourner deux cartes à la fois, en essayant de trouver deux cartes identiques."+
+    " Si les cartes retournées sont identiques, elles restent face visible en vert. Si les cartes ne sont pas identiques elles s'affichent en rouge et apres une seconde elles sont retournées face cachée et le joueur doit continuer à chercher des paires jusqu'à ce qu'il ait trouvé toutes les cartes correspondantes."},
     {
-      id: 2, 
+      id: 3, 
       name: 'Test de Covid 19', 
       language: "Javascript", 
       year: "2022", 
@@ -27,17 +38,7 @@ var articles = [
       url: "https://arf-hamza.github.io/Test-covid/",
       video: "/images/test_covid_video.mp4", 
       description:"- Un test covid creer avec javascript qui demande en premier sur combien de jour on veut faire l'analyse et ensuite il prent la consommation de chaque jour pour qu'il puissent donner au final le resultat du test pour chaque individue selon son cas et sa situation particuliaire ." },
-    {
-      id: 3, 
-      name: 'Un Jeu de Memoire', 
-      language: "Javascript, HTML, CSS", 
-      year: "2022", 
-      image: "/images/jeu_de_memoire.jpg", 
-      url: "https://arf-hamza.github.io/TP_3_Memory_Game/",
-      video: "/images/jeu_memoire_video.mp4",
-      description:"- Un jeu de mémoire qui teste la capacité d'un joueur à se souvenir et à retrouver des paires de cartes. Le jeu peut être joué sur un ordinateur, une tablette ou un smartphone via un navigateur web, avec un compteur de cinq minutes."+
-      "Le jeu commence par afficher un certain nombre de cartes, chacune avec un chiffre dessus. Les cartes sont mélangées et retournées face cachée. Le joueur doit ensuite retourner deux cartes à la fois, en essayant de trouver deux cartes identiques."+
-      " Si les cartes retournées sont identiques, elles restent face visible en vert. Si les cartes ne sont pas identiques elles s'affichent en rouge et apres une seconde elles sont retournées face cachée et le joueur doit continuer à chercher des paires jusqu'à ce qu'il ait trouvé toutes les cartes correspondantes."},
+
     {
       id: 4, 
       name: 'Agence de Voyage au Japon', 

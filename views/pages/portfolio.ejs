@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <%- include('../includes/head'); %>
   <title>Portfolio</title>
@@ -29,7 +29,7 @@
               <h3><%= post.name %></h3>
               <strong> Réalisé avec <%= post.language %>,
               en <%= post.year %>.</strong><br>
-              <img src="<%= post.image %>" style="height: 400px; width: 600px; border-radius: 20px;">
+              <img src="<%= post.image %>" style="max-width: 100%; height: auto; border-radius: 20px;">
 
           <button class="btn btn-dark btn-lg mt-2"><a href="/post/<%= post.id %>" style="color: white; text-decoration: none;">Voir plus de détails</a></button>
             

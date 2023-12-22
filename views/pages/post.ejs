@@ -1,40 +1,44 @@
 <!-- project-details.ejs -->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <%- include('../includes/head'); %>
-  <title>Details</title>
-</head>
-<body class="container" style="background-color: black;">
+<html lang="fr">
+  <head>
+    <%- include('../includes/head'); %>
+    <title>Details</title>
+  </head>
+  <body class="container" style="background-color: black">
+    <header><%- include('../includes/header'); %></header>
 
-<header>
-  <%- include('../includes/header'); %>
-</header>
+    <main class="bg-dark text-white rounded-3">
+      <div class="jumbotron mt-3 mx-3">
+        <h1><%= post.name %></h1>
+        <br />
+        <h2><%= post.language %></h2>
+        <br />
+        <h3><%= post.year %></h3>
+        <br />
 
-<main class="bg-dark text-white rounded-3">
-  <div class="jumbotron mt-3 mx-3">
-    <h1><%= post.name %> </h1> <br>
-    <h2> <%= post.language %> </h2><br>
-    <h3> <%= post.year %> </h3><br>
-    
-    <iframe src="<%= post.video %>" style="height: 400px; width: 600px; border-radius: 20px;" ></iframe>
-    <strong><p><%= post.description %></p></strong> 
+        <iframe
+          src="<%= post.video %>"
+          style="max-width: 100%; min-width: 100%;; height: auto; border-radius: 20px"
+        ></iframe>
+        <strong>
+          <p style="font-size: 18px; line-height: 1.5">
+            <%= post.description %>
+          </p>
+        </strong>
 
+        <button class="btn btn-dark btn-lg mt-2">
+          <a href="<%= post.url %>">Visiter le site</a>
+        </button>
 
+        <button class="btn btn-dark btn-lg mt-2">
+          <a href="/portfolio" style="color: white; text-decoration: none"
+            >Retour au Portfolio</a
+          >
+        </button>
+      </div>
+    </main>
 
-    <button class="btn btn-dark btn-lg mt-2"><a href="<%= post.url %>">Visiter le site</a></button>
-
-
-     <button class="btn btn-dark btn-lg mt-2"><a href="/portfolio" style="color: white; text-decoration: none;">Retour au Portfolio</a></button>
- 
-
-
-  </div>
-</main>
-
-<footer>
-  <%- include('../includes/footer'); %>
-</footer>
-
-</body>
+    <footer><%- include('../includes/footer'); %></footer>
+  </body>
 </html>
